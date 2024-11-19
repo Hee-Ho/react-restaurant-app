@@ -1,0 +1,16 @@
+.tilelist {
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-gap: 32px;
+  }
+
+@media only screen and (max-width: 815px) {
+    .tilelist {
+        width: 85vw;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }}

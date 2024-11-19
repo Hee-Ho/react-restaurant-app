@@ -1,0 +1,32 @@
+.tile-container {
+    display: flex;
+    flex-direction: column;
+    color:black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgb(163, 163, 163);;
+    padding: 16px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+
+  .tile-container:hover {
+    transform: scale(1.05);
+  }
+
+.logo {
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 52px;
+  width: 70px;
+  height:70px;
+  color: rgb(0, 78, 20);
+  background-color: aliceblue;
+  border-radius: 50%;
+}

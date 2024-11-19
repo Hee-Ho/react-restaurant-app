@@ -1,0 +1,13 @@
+.body {
+    padding-top: 96px;
+    text-align: center;
+}
+
+.title {
+    padding-bottom: 32px;
+}
+
+label {
+    font-size: 24px;
+    padding-bottom: 24px;
+}

@@ -1,0 +1,8 @@
+.selector {
+  width: 50%
+}
+
+.rid_selector {
+  display: flex;
+  justify-content: center;
+}
